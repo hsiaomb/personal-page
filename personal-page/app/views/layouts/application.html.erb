@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome!</title>
+  <title>Michael Hsiao | Web Developer</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <!-- jQuery Resources -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <!-- Semantic UI CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+
+  <!-- Semantic UI JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
 </head>
 <body>
 
-<%= yield %>
+  <%= yield %>
 
 </body>
 </html>
