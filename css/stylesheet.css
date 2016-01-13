@@ -1,0 +1,332 @@
+body.dimmable{
+  margin-top: 100px;
+  background-color: #F2F2F2;
+}
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+.main.container {
+  margin-top: 7em;
+}
+.wireframe {
+  margin-top: 2em;
+}
+.ui.footer.segment {
+  margin: 5em 0em 0em;
+  padding: 5em 0em;
+}
+.twelve.wide.column p{
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #083d77;
+}
+#profile-picture{
+  height: 250px;
+  width: 250px;
+  border-radius: 250px;
+  border: 1px solid black;
+}
+#about-me{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+#about-me img{
+  margin-bottom: 40px;
+}
+#about-me-header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  margin-top:50px;
+  color: #083d77;
+}
+#header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size:20px
+}
+#header-name{
+  font-weight: 900
+}
+.right.menu a.ui.item{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+div.ui.simple.dropdown.item{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+div.ui.fixed.inverted.menu{
+  height: 50px;
+}
+
+a.ui.inverted.button{
+  height:36px;
+  margin: 7px 14px 0 0
+
+}
+.image.content a{
+  color: black;
+}
+#twitter:hover{
+  color: #4298ED;
+}
+#github:hover{
+  color: #348AA7;
+}
+#instagram:hover{
+  color: #85573E;
+}
+#linkedin:hover{
+  color: #1571B3;
+}
+.actions span{
+  margin-left: 5px;
+}
+i.github.icon{
+  font-size: 7.8em;
+  margin-bottom: 40px
+}
+i.instagram.icon{
+  font-size: 7.8em;
+  margin-bottom: 40px
+}
+i.linkedin.icon{
+  font-size: 7.8em;
+  margin-bottom: 40px
+}
+i.twitter.icon{
+  font-size: 7.8em;
+  margin-bottom: 40px
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.icon{
+  padding: 0 10px 0 10px;
+}
+div.image{
+  margin: 0 auto;
+}
+i.marker.icon{
+  padding-top:20px;
+  padding-left:17px;
+  font-size: 3em;
+  color: white;
+}
+i.birthday.icon{
+  padding-top:20px;
+  padding-left:16px;
+  font-size: 2em;
+  color: white;
+}
+
+i.university.icon{
+  padding-top:20px;
+  padding-left:15px;
+  font-size: 2em;
+  color: white;
+}
+
+i.suitcase.icon{
+  padding-top:20px;
+  padding-left:16px;
+  font-size: 2em;
+  color: white;
+}
+
+i.users.icon{
+  padding-top:20px;
+  padding-left:15px;
+  font-size: 2em;
+  color: white;
+}
+
+i.student.icon{
+  padding-top:22px;
+  padding-left:12px;
+  font-size: 2em;
+  color: white;
+}
+
+i.desktop.icon{
+  padding-top:22px;
+  padding-left:15px;
+  font-size: 2em;
+  color: white;
+}
+
+i.code.icon{
+  font-size: 3em;
+  color: #083d77;
+  text-align: center;
+  margin: 0 auto;
+}
+.code-icon{
+  width:50px;
+  margin:0 auto;
+}
+
+#projects-header, #timeline-header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #083d77;
+  text-align: center;
+}
+
+#skills-header{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #083d77;
+  text-align: center;
+}
+.skills-title{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+.eight.wide.column ul li{
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.eight.wide.column ul{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.main.menu {
+  margin-top: 4em;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  transition:
+    box-shadow 0.5s ease,
+    padding 0.5s ease
+  ;
+}
+
+.main.menu.fixed {
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+div.ui.inverted.main.menu{
+  margin: 0px;
+  border-radius: 0px;
+}
+#title-box h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#title-box h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+#fullpage img{
+  opacity: 0.4;
+}
+
+#title-box{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#webdev-title{
+  -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+}
+
+#name-title{
+  -webkit-animation-duration: 3s;
+}
+
+.ui.main.container{
+  margin-top:35px;
+}
+#skills-header, #timeline-header{
+  margin-top:35px;
+}
+
+#beatrepeat{
+  height: 220px;
+  background-color: black;
+}
+
+#generalface{
+  height: 220px;
+  background-color: red;
+}
+
+#giftwish{
+  height: 220px;
+  background-color: black;
+}
+
+#recipeeps{
+  height: 220px;
+  background-color: red;
+}
+
+#wetube{
+height: 220px;
+background-color: red;
+
+}
+
+div.row.projects{
+  padding: 0px
+}
