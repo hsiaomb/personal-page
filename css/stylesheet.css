@@ -282,14 +282,17 @@ div.ui.inverted.main.menu{
   margin: 0 auto;
   text-align: center;
 }
-
 #webdev-title{
   -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
 }
-
+#continue{
+  -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 3s;
+}
 #name-title{
   -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
 }
 
 .ui.main.container{
@@ -501,4 +504,19 @@ background-color: red;
 .actions-header{
   font-size: 26px;
   font-weight: 700;
+}
+
+#continue{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid white;
+}
+
+#continue:hover{
+  color: #1B1C1D;
+  background-color: white;
 }
