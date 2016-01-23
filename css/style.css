@@ -31,9 +31,9 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+h1, h2 !important{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 /* --------------------------------
@@ -155,13 +155,23 @@ header h1 {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #F4743B;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #7B0D1E;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #083d77;
+}
+.cd-timeline-img.cd-work {
+  background: #70AE6E;
+}
+#fullpage div.section{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cd-timeline-img.cd-club {
+  background: #4A4063;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -255,7 +265,7 @@ header h1 {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: black;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
