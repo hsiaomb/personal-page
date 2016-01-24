@@ -511,14 +511,14 @@ background-color: red;
   font-size: 20px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: white;
   padding: 10px 15px 10px 15px;
   border: 2px solid white;
 }
 
 #continue:hover{
-  color: #1B1C1D;
+  color: rgba(0, 0, 0, 0.5);
   background-color: white;
 }
 
