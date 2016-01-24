@@ -283,6 +283,7 @@ div.ui.inverted.main.menu{
   text-align: center;
 }
 #webdev-title{
+  margin-bottom: 40px;
   -webkit-animation-duration: 3s;
     -webkit-animation-delay: 2s;
 }
@@ -519,4 +520,48 @@ background-color: red;
 #continue:hover{
   color: #1B1C1D;
   background-color: white;
+}
+
+@media (max-width: 1200px) {
+  #profile-picture{
+    width: 200px;
+    height: 200px;
+  }
+  #about-me-header{
+    margin-top: 20px;
+  }
+  #continue{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding:8px 12px 8px 12px;
+    border: 2px solid white;
+  }
+
+  #continue:hover{
+    color: #1B1C1D;
+    background-color: white;
+  }
+  #title-box h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+#title-box h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+}
+
+@media (max-width: 1000px){
+  #profile-picture{
+    width: 160px;
+    height: 160px;
+    float:none;
+  }
 }
