@@ -565,3 +565,6 @@ background-color: red;
     float:none;
   }
 }
+i.keyboard.icon{
+  font-size: 2em;
+}
