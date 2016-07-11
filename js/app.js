@@ -38,4 +38,13 @@ $(document)
 		autoScrolling: false,
 		fitToSection: false
 	});
+
+  $('#fullpage').imagesLoaded( function() {
+    $('#webdev-title').removeClass('hidden');
+    $('#webdev-title').addClass('fadeIn');
+    $('#name-title').removeClass('hidden');
+    $('#name-title').addClass('fadeIn');
+  $('#continue').removeClass('hidden');
+  $('#continue').addClass('fadeIn');
+});
 });

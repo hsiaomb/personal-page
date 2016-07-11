@@ -7,13 +7,15 @@ html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.hidden {
+  visibility: hidden;
+}
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
@@ -492,4 +494,9 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+#preloader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }

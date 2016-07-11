@@ -335,19 +335,6 @@ background-color: red;
   padding: 0px !important;
 }
 
-.view {
-    height: 288px;
-    width: 288px;
-    margin: 10px;
-    padding:0px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
-}
 .view .mask, .view .content {
     height: 288px;
     width: 289px;
